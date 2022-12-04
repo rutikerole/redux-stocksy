@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+.App{
+  background: linear-gradient(93.49deg, #9356F8 -30.02%, #2B21A2 97.88%);
+  color: #ffff;
+  font-family: Montserrat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  width: 15rem;
+  margin: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.mid-section{ display: flex; }
+
+.left-section{ 
+  width: 32.5rem;
+  margin-left: 7rem;
+ }
+
+ .right-section {
+  margin-top: 5rem;
+ }
+
+ .input-sec {
+  margin:4rem 8rem;
+ }
+
+ .input-sec input{
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+ }
+
+ input:focus {
+  outline: none 
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+ .input-sec button{
+  position: absolute;
+  color: #ffff;
+  margin-left:-1rem ;
+  border-radius:0 5px 5px 0;
+  padding: 8px;
+  background-color: #9E3AF4;
+  border: #9356F8;
+  z-index: 1;
+ }
+
+.lower-section{ 
+  display: flex; 
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.lower-section a{ 
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.email { 
+  height: 2rem;
+  margin: 0.5rem 2rem;
+ }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
 }
+
+.footer-left{
+  display:flex;
+  margin: 0 1rem;
+}
+
+.footer-lef, a{
+  color: #ffff;
+  margin:1rem 1rem;
+}
+
+.linkedin, .instagram, .twitter {
+  height: 1.5rem;
+  margin: 1rem;
+}
+
